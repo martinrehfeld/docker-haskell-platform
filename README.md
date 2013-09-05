@@ -6,7 +6,7 @@ Dockerfile to setup the haskell-plattform based on Ubuntu.
 Building the Docker image
 -------------------------
 
-    $ docker build -t [username]/haskell-platform git://github.com/martinrehfeld/docker-haskell-platform.git
+    $ docker build -t [username]/haskell-platform https://raw.github.com/martinrehfeld/docker-haskell-platform/master/Dockerfile
 
 Running the docker image created
 --------------------------------
