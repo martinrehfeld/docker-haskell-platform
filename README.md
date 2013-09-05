@@ -8,7 +8,9 @@ Building the Docker image
 
     $ docker build -t [username]/haskell-platform https://raw.github.com/martinrehfeld/docker-haskell-platform/master/Dockerfile
 
-Running the docker image created
+*Hint*: You need about 1.5 GB of memory to successfully build the Haskell Platform.
+
+Running the Docker image created
 --------------------------------
 
 For example to get an interactive session with GHCi:
